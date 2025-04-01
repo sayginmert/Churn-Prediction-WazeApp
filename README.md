@@ -13,13 +13,13 @@ Waze is a popular navigation app used worldwide. This project aims to predict **
 - Statistical Analysis
 
 ## Project Structure  
-├── data/ # Raw and processed datasets
-├── notebooks/ # Jupyter Notebooks with EDA & model training
-├── scripts/ # Reusable Python scripts
-├── results/ # Model evaluation results
-├── index.html # Project presentation page
-├── style.css # Styling for the project page
-└── README.md # Project documentation
+- data/ # Raw and processed datasets
+- notebooks/ # Jupyter Notebooks with EDA & model training
+- scripts/ # Reusable Python scripts
+- results/ # Model evaluation results
+- index.html # Project presentation page
+- style.css # Styling for the project page
+- README.md # Project documentation
 
 ## Key Insights  
 - **80% accuracy** in predicting churn  
