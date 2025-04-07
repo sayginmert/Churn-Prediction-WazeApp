@@ -110,3 +110,34 @@ footer p {
 .icons a:hover {
     color: #FFB400; /* Branding: Icon Hover */
 }
+
+/* --- Carousel Gallery --- */
+.carousel-grid {
+  overflow: hidden;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.carousel-track {
+  display: flex;
+  gap: 20px;
+  animation: scroll 30s linear infinite;
+}
+
+.carousel-track img {
+  max-height: 240px;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.carousel-track img:hover {
+  transform: scale(1.05);
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); } /* passt sich automatisch an */
+}
