@@ -4,17 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Waze Churn Prediction</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
     <style>
         body {
             font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .text-center {
+            text-align: center;
+        }
+        .text-white {
+            color: white;
+        }
+        .bg-[#F4F6FC] {
+            background-color: #F4F6FC;
+        }
+        .bg-[#FFB400] {
+            background-color: #FFB400;
+        }
+        .bg-[#00AEFF] {
+            background-color: #00AEFF;
+        }
+        .text-[#FFB400] {
+            color: #FFB400;
+        }
+        .text-[#00AEFF] {
+            color: #00AEFF;
+        }
+        .hover\:text-[#FFB400]:hover {
+            color: #FFB400;
+        }
+        .space-y-4 {
+            margin-bottom: 1rem;
+        }
+        .space-y-6 {
+            margin-bottom: 1.5rem;
+        }
+        .space-x-6 {
+            margin-right: 1.5rem;
+        }
+        .flex {
+            display: flex;
+        }
+        .items-center {
+            align-items: center;
+        }
+        .justify-center {
+            justify-content: center;
+        }
+        .h-[50vh] {
+            height: 50vh;
+        }
+        .fa-3x {
+            font-size: 3em;
+        }
+        .py-2 {
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+        }
+        .px-6 {
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+        }
+        .rounded-lg {
+            border-radius: 0.5rem;
+        }
+        .transition {
+            transition: all 0.3s ease;
         }
     </style>
 </head>
-<body class="bg-[#F4F6FC] text-gray-900">
+<body>
 
-   <!-- Hero Section mit reduzierter Größe -->
+<!-- Hero Section mit reduzierter Größe -->
 <section class="flex items-center justify-center h-[50vh] bg-[#F4F6FC] text-white text-center p-6">
     <div class="space-y-4">
         <h1 class="text-5xl font-semibold text-[#FFB400]">Waze Churn Prediction</h1>
@@ -23,77 +87,21 @@
     </div>
 </section>
 
+<!-- Notebooks Section -->
+<section class="py-16 px-6 bg-white">
+    <div class="max-w-4xl mx-auto text-center space-y-6">
+        <h2 class="text-3xl font-semibold text-[#00AEFF]">Notebooks</h2>
+        <p class="text-lg text-gray-700">Access the Jupyter Notebooks used in this project for detailed analysis:</p>
+        <ul class="list-none space-y-4 text-left text-lg">
+            <li><a href="https://github.com/sayginmert/Waze-Churn-Prediction/blob/main/notebooks/Data_Analysis.ipynb" target="_blank" class="text-[#00AEFF] hover:underline">Data Analysis Notebook</a></li>
+            <li><a href="https://github.com/sayginmert/Waze-Churn-Prediction/blob/main/notebooks/Model_Training.ipynb" target="_blank" class="text-[#00AEFF] hover:underline">Model Training Notebook</a></li>
+            <li><a href="https://github.com/sayginmert/Waze-Churn-Prediction/blob/main/notebooks/Model_Evaluation.ipynb" target="_blank" class="text-[#00AEFF] hover:underline">Model Evaluation Notebook</a></li>
+        </ul>
+    </div>
+</section>
 
-    <!-- Project Overview Section -->
-    <section class="py-16 px-6 bg-white">
-        <div class="max-w-4xl mx-auto text-center space-y-6">
-            <h2 class="text-3xl font-semibold text-[#00AEFF]">Project Overview</h2>
-            <p class="text-xl text-gray-700">This project aims to predict user churn for the Waze navigation app using machine learning models. The goal is to identify users likely to leave the platform and provide actionable insights for retention strategies.</p>
-        </div>
-    </section>
-
-    <!-- Data Section -->
-    <section class="py-16 bg-[#F4F6FC]">
-        <div class="max-w-4xl mx-auto text-center space-y-6">
-            <h2 class="text-3xl font-semibold text-[#00AEFF]">Dataset & Analysis</h2>
-            <p class="text-lg text-gray-700">The dataset includes anonymized user behavior data from Waze, including metrics like trip frequency, support interactions, and user engagement. Key features were explored to identify patterns related to churn behavior.</p>
-        </div>
-    </section>
-    
-    <!-- Notebooks Section -->
-    <section class="py-16 px-6 bg-white">
-        <div class="max-w-4xl mx-auto text-center space-y-6">
-            <h2 class="text-3xl font-semibold text-[#00AEFF]">Explore the Notebooks</h2>
-            <p class="text-lg text-gray-700">Dive deeper into the analysis and models by exploring the Jupyter Notebooks used for this project.</p>
-            <div class="space-y-4">
-                <a href="https://github.com/sayginmert/Waze-Churn-Prediction/blob/main/notebooks/Data_Preprocessing.ipynb" target="_blank" class="text-[#FFB400] hover:text-[#FFB400] transition duration-300">Data Preprocessing Notebook</a>
-                <a href="https://github.com/sayginmert/Waze-Churn-Prediction/blob/main/notebooks/Model_Training.ipynb" target="_blank" class="text-[#FFB400] hover:text-[#FFB400] transition duration-300">Model Training Notebook</a>
-                <a href="https://github.com/sayginmert/Waze-Churn-Prediction/blob/main/notebooks/Evaluation.ipynb" target="_blank" class="text-[#FFB400] hover:text-[#FFB400] transition duration-300">Model Evaluation Notebook</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Machine Learning Models Section -->
-    <section class="py-16 px-6 bg-white">
-        <div class="max-w-4xl mx-auto text-center space-y-6">
-            <h2 class="text-3xl font-semibold text-[#00AEFF]">Machine Learning Models</h2>
-            <p class="text-lg text-gray-700">We used various machine learning models for churn prediction, including Random Forest, XGBoost, and SVM. Each model was evaluated based on ROC-AUC and other relevant metrics.</p>
-            <table class="mx-auto text-left text-gray-700">
-                <thead>
-                    <tr>
-                        <th class="py-2 px-4">Model</th>
-                        <th class="py-2 px-4">ROC-AUC Score</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td class="py-2 px-4">Random Forest</td>
-                        <td class="py-2 px-4">0.85</td>
-                    </tr>
-                    <tr>
-                        <td class="py-2 px-4">XGBoost</td>
-                        <td class="py-2 px-4">0.84</td>
-                    </tr>
-                    <tr>
-                        <td class="py-2 px-4">SVM</td>
-                        <td class="py-2 px-4">0.80</td>
-                    </tr>
-                    <tr>
-                        <td class="py-2 px-4">Logistic Regression</td>
-                        <td class="py-2 px-4">0.76</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="py-12 bg-[#00AEFF] text-white text-center">
-        <div class="max-w-4xl mx-auto">
-            <p class="text-lg">Want to learn more or collaborate?</p>
-            <a href="mailto:your.email@example.com" class="mt-4 inline-block bg-[#FFB400] py-2 px-6 rounded-lg text-white hover:bg-[#FFB400] transition duration-300">Contact Me</a>
-        </div>
-    </section>
-
-</body>
-</html>
+<!-- Contact Section mit LinkedIn und GitHub Icons -->
+<section class="py-12 bg-[#00AEFF] text-white text-center">
+    <div class="max-w-4xl mx-auto">
+        <p class="text-lg">Want to learn more or collaborate?</p>
+        <div class
