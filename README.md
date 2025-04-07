@@ -1,7 +1,7 @@
 # Waze Churn Prediction  
 **Predicting user churn in Waze (Navigation app) to improve retention strategies using Machine Learning.**  
 
-🔗 **Website Demo:** [sayginmert.github.io/Waze-Churn-Prediction](https://sayginmert.github.io/Waze-Churn-Prediction/)  
+🔗 **Website:** [sayginmert.github.io/Waze-Churn-Prediction](https://sayginmert.github.io/Waze-Churn-Prediction/)  
 
 ## Project Overview  
 Waze is a popular navigation app used worldwide. This project aims to predict **user churn**, helping Waze improve retention strategies.  
