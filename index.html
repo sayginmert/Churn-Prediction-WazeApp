@@ -52,8 +52,13 @@
             padding: 60px 20px;
             max-width: 1000px;
             margin: auto;
+            transition: transform 0.3s ease, background-color 0.3s ease;
         }
-
+            
+         section:hover {
+            transform: scale(1.05); /* Skaliert den Abschnitt beim Hover */
+            background-color: #e6f7ff; /* Hintergrundfarbe beim Hover */
+        }
         .btn {
             display: inline-block;
             margin-top: 15px;
@@ -63,6 +68,7 @@
             border-radius: 8px;
             text-decoration: none;
             font-weight: 600;
+            transition: background-color 0.3s ease;
         }
 
         .btn:hover {
@@ -77,10 +83,31 @@
         }
 
         .carousel img {
-            height: 180px;
+            height: 200px;
             border-radius: 12px;
+            transition: transform 0.3s ease;
         }
 
+        .contact {
+            background-color: #00AEFF;
+            color: white;
+            padding: 40px 20px;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        .contact a {
+            color: #FFB400;
+            font-size: 1.5em;
+            margin: 0 10px;
+            display: inline-block;
+            transition: color 0.3s ease;
+        }
+        
+        .contact:hover {
+            transform: scale(1.05); /* Skaliert den Kontaktbereich beim Hover */
+            background-color: #008fcc; /* Dunklere Hintergrundfarbe bei Hover */
+        }
+            
     </style>
 </head>
 <body>
