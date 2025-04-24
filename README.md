@@ -22,7 +22,6 @@ Waze is a popular navigation app used worldwide. This project aims to predict **
 - data/ -> Raw and processed datasets
 - notebooks/ -> Jupyter Notebooks with EDA & model training
 - scripts/ -> Reusable Python scripts
-- results/ -> Model evaluation results
 - index.html -> Project presentation page
 - style.css -> Styling for the project page
 - README.md -> Project documentation
