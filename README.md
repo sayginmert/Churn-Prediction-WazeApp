@@ -1,7 +1,7 @@
-# Waze Churn Prediction  
+# Churn Prediction - Waze App 
 **Predicting user churn in Waze (Navigation app) to improve retention strategies using Machine Learning.**  
 
-🔗 **Website:** [sayginmert.github.io/Waze-Churn-Prediction](https://sayginmert.github.io/Waze-Churn-Prediction/)  
+🔗 **Website:** [sayginmert.github.io/Waze-Churn-Prediction](https://sayginmert.github.io/Churn-Prediction-WazeApp/)  
 
 ## Project Overview  
 Waze is a popular navigation app used worldwide. This project aims to predict **user churn**, helping Waze improve retention strategies.  
@@ -32,5 +32,5 @@ Waze is a popular navigation app used worldwide. This project aims to predict **
 - Random Forest performed best in terms of generalization
 
 ## 📎 Links  
-- **GitHub Repository:** [GitHub](https://github.com/sayginmert/Waze-Churn-Prediction)  
-- **Live Project:** [sayginmert.github.io/Waze-Churn-Prediction](https://sayginmert.github.io/Waze-Churn-Prediction/)  
+- **GitHub Repository:** [GitHub](https://github.com/sayginmert/Churn-Prediction-WazeApp/)  
+- **Live Project:** [sayginmert.github.io/Waze-Churn-Prediction](https://sayginmert.github.io/Churn-Prediction-WazeApp/)  
